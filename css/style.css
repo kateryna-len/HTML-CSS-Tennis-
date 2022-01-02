@@ -1,0 +1,163 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family:'Source Sans Pro', sans-serif;
+  line-height: 1.6;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header{
+  
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  position: fixed;
+  max-width: 1100px;
+  
+}
+.logo{
+  padding-left: 410px;
+}
+.menu{
+  display: flex;
+}
+
+.menu .item{
+  width: 100px;
+  list-style: none;
+  position: relative;
+  background: white;
+}
+.menu .item{
+border-right: 1px solid black;
+}
+.menu .item:first-child{
+  border-left: 1px solid black;
+}
+.menu .item-bottom{
+width: 200px;
+list-style: none;
+position: relative;
+background: white;
+}
+.menu .item-bottom a{
+  text-align: left;
+}
+
+.menu a{
+  color:black;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 0 10px;
+  height: 40px;
+  line-height: 40px;
+  transition: all 0.5s;
+}
+.menu a:hover{
+  background: #9ec0ff;
+}
+.menu ul{
+  position: absolute;
+  left: 0;
+  display: none;
+  padding: 0;
+}
+.menu li:hover ul{
+  display: block;
+}
+
+.foto{
+  width: 100%;
+  background-image:url(../Foto/Tennis-racket1-resized-banner.png);
+  height: 250px;
+  background-size: cover;
+  top: 30px
+}
+.box-main{
+ 
+ padding: 10px 0px;
+}
+ h2{
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+}
+.content-box{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+img{
+  display: block;
+  width: 300px;
+  margin-right: 10px;
+}
+.title{
+  font-size: 20px;
+  font-weight: 600;
+}
+.content-text{
+  text-align: justify;
+}
+.box-add{
+  border-bottom: 2px solid black;
+  
+}
+.team{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.team1{
+  width: 300px;
+  min-height: 400px;
+}
+.team1 img{
+  width: 300px;
+  height: 200px;
+}
+.team1 h3{
+  text-align: center;
+}
+.team1 p{
+  text-align: justify;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  
+}
+.team-link, .fa-link{
+  color: rgb(28, 30, 155);
+}
+
+footer{
+  max-width: 1100px;
+ margin: 0 auto;
+ overflow: auto;
+ padding: 0 40px;
+ background-color: rgb(17, 101, 180);
+}
+.icons{
+  text-align: center;
+}
+.fab{
+  font-size: 35px;
+  margin: 20px 0 10px 20px;
+  color: rgb(255, 255, 255);
+}
+.icons .fas{
+  font-size: 15px;
+  margin: 0 0 0 20px;
+  color: rgb(255, 255, 255);
+}
+span{
+  font-size: 10px;
+  color: white;
+}
