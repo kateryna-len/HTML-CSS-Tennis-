@@ -202,6 +202,7 @@ background-color: white;
 }
 .content{
   border-bottom: 3px solid black;
+  padding-bottom: 20px; 
 }
 h2{
   text-align: center;
@@ -342,4 +343,10 @@ footer{
 span{
   font-size: 10px;
   color: white;
+}
+
+.textArea div{
+  padding-top: 30px;
+  text-align: justify;
+  
 }
